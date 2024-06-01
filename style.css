@@ -1,0 +1,104 @@
+/* Estilo para el body */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgba(2, 83, 159, 0.727);
+}
+.navbar-brand h1{
+    color:  #2F80ED;
+    
+ }
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 100%;
+}
+
+/* Estilo para el título principal */
+.nombre {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Estilo para la tarjeta */
+.card {
+    border: none;
+}
+
+/* Estilo para el título de la tarjeta */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para el ícono */
+.icono {
+ 
+}
+
+/* Estilo para el texto de la tarjeta */
+.card-text {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 0px;
+}
+
+/* Estilo para el cuerpo de la tarjeta */
+.card-body {
+    background: #56CCF2;
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+}
+.col-md-4{
+    background-color: #2F80ED;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.col-md-8{
+    height: auto;
+}
+/* Ajustes de imagen */
+.img-fluid {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; /* Ajusta la altura máxima de las imágenes */
+}
+
+/* Margen entre las filas */
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1rem;
+    }
+    
+    .card-text {
+        font-size: 0.875rem;
+    }
+}
+
+footer {
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: rgba(2, 83, 159, 0.727);
+    padding: 10px;
+    text-align: center;
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+}
